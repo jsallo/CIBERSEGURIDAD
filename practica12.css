@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+body{
+    margin: 10px 450px 10px 450px ;
+    text-align: center;
+}
+
+h1{
+    font-family: "Fira Code";
+    color:  #00ff00;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: -5px 5px 30px #00ff00;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.box_model{
+    font-family: "Fira Code";
+    display:inline-block;
+    text-align: center;
+    color:  #00ff00;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 2px solid rgb(141, 224, 85);
+    padding: 65px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    background-color: rgba(8, 15, 1, 0.80) ;
+    width: 300px;
+    height: 100px;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px #00ff00;
+}
+
+.box_model:hover{
+    transform: scale(1.2,1.2);
+    box-shadow: 0px 0px 30px #00ff00;
+    text-shadow: 3px 3px 10px #00ff00;
+}
+
+video{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(45%)
+}
+
+a{
+    text-decoration: none;
+    color: #00ff00;
+}
