@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #fafafa;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 50px ;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+}
+
+h1{
+    color: #e4002b;
+    font-size: 50px;
+}
+
+
+
+
+tbody tr:nth-child(even) {
+    background-color: #fff9f2;
+}
+    
+tbody tr:hover {
+    background-color:#fff9f2 ;
+} 
+
+th{
+    background-color: #e4002b;
+    text-align: center;
+    padding: 15px;
+    color: #fff9f2 ;
+}
+
+tr{
+    border-collapse: collapse;
+    font-family: "Roboto", sans-serif;
+    text-align: center; 
+}
+
+td{
+    padding: 10px;
+}
+
+table{
+    width: 50%;
+    margin: auto ;
+    text-align: left;
+    padding: 1000px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    overflow: hidden;
+    background-color:#fafafa;
+    box-shadow: 0px 0px 15px rgb(141, 141, 141);
+}
+
+
+
+
+ul{
+    list-style-type: none;
+    background-color: #e4002b;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+    position: fixed;
+    
+}
+
+
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
+    margin-left: 50px;   
+    
+}
+
+li a:hover{
+    background-color: #f7bc00;
+    color: #e4002b;
+}
+
+
+
+h1{
+    font-family: "Great Vibes", cursive;
+}
+
+
+.whatsapp-icom{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    top: 650px;
+    left: 1380px;
+    font-size: 50px;
+    color: rgb(100, 190, 100);
+}
+
+
