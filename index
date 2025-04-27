@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="tr.css">
+    <title>SALLO</title>
+<body>
+    
+    <ul class="static">
+        <li><a href="tr.html">Inicio</a></li>
+        <li><a href="pizza.html">Pizzas</a></li>
+        <li><a href="nuestra_historia.html">Nuestra Historia</a></li>
+        <li><a href="">Tiendas</a></li>
+        <li><a href="">Promociones</a></li>
+        <li><a href="inciar_sesion.html">Iniciar Sesión</a></li>
+        <li><a href=""><i class="bi bi-cart cart"></i>Carrito</a></li>
+    </ul>
+
+    <video autoplay muted loop >
+        <source src="VIDEOS/pizza.mp4">
+    </video>
+
+    <div class="portada">
+        <h1>Pizzería Delicias</h1>
+        <p>El sabor, directo a tu casa</p>
+        <img src="IMAGENES/portada.jpg" alt="portada">
+    </div>
+
+
+
+    <div>
+        <h2>Sobre Nosotros</h2>
+        <div class="parrafo">Bienvenidos a la Pizzería Deliciosa, un lugar donde el sabor se convierte en una experiencia <br> única.
+            Aquí encontraras las mejores pizzas, elaboradas con los ingredientes más frescos y <br> seleccionados
+            con cuidado para tí.
+        </div>
+    </div>
+
+
+    <div class="box_model"><img src="IMAGENES/local.jpg" alt="local"></div>
+    <div class="box_model"><img src="IMAGENES/pizza.jpg" alt="pizza"></div>
+    <div class="box_model"><img src="IMAGENES/vino.jpg" alt="vino"></div>
+    <div class="box_model"><img src="IMAGENES/pastas.jpg" alt="pastas"></div>
+    
+
+<a href="https://wa.me/123456789" target="_blank" class="whatsapp-icom"><i class="bi bi-whatsapp"></i></a>
+
+</body>
+
+</html>
